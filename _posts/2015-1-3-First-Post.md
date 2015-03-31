@@ -18,15 +18,15 @@ page.
 Software development! Web development to be more concrete. I enjoy working on
 both: client side as well as server side of the applications. I will cover topics
 mainly about:
-	- Ruby and Ruby on Rails
-	- Javascript
-	- Various JS frameworks
-	..- AngularJS
-	..- React
-	..- Backbone
-	- My favorite JS tools
-	.. - GULP
-	.. - Webpack
+- Ruby and Ruby on Rails
+- Javascript
+- Various JS frameworks
+	- AngularJS
+	- React
+	- Backbone
+- My favorite JS tools
+	- GULP
+	- Webpack
 
 ## How does the code looks like here?
 
