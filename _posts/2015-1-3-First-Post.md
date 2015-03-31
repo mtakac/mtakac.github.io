@@ -14,6 +14,23 @@ far it seems awesome! I especially like the fact that I can write everything in
 - Dolor
 - Sit amet
 
+```javascript
+!(function() {
+  module.exports = function(ngModule) {
+    ngModule.controller('UsersListCtrl', UsersListCtrl);
+    
+    function UsersListCtrl(UsersModel) {
+      var vm = this;
+      
+      UsersModel.getUsers()
+        .then(function(result) {
+          vm.users = result;
+        });
+    };
+  };
+})();
+```
+
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
