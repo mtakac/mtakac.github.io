@@ -31,6 +31,7 @@ mainly about:
 ## How does the code looks like here?
 
 Let's try some Ruby:
+
 ```ruby
 class User
 	attr_accessor :username, :email, zipcode
@@ -48,6 +49,7 @@ end
 ```
 
 And now some Javascript goodnes:
+
 ```javascript
 !(function) {
 	module.exports = function(ngModule) {
